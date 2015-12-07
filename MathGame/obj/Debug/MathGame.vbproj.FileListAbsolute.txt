@@ -1,0 +1,10 @@
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\bin\Debug\MathGame.exe.config
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\bin\Debug\MathGame.exe
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\bin\Debug\MathGame.pdb
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\bin\Debug\MathGame.xml
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.MainForm.resources
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.Resources.resources
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.vbproj.GenerateResource.Cache
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.exe
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.xml
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.pdb

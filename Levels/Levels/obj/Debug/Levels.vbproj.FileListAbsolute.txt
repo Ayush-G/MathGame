@@ -1,0 +1,12 @@
+C:\Users\Total\AppData\Local\Temporary Projects\Levels\bin\Debug\Levels.exe.config
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\bin\Debug\Levels.exe.config
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\obj\Debug\Levels.vbprojResolveAssemblyReference.cache
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\obj\Debug\Levels.Levels.resources
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\obj\Debug\Levels.Resources.resources
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\obj\Debug\Levels.vbproj.GenerateResource.Cache
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\obj\Debug\Levels.xml
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\bin\Debug\Levels.exe
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\bin\Debug\Levels.pdb
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\bin\Debug\Levels.xml
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\obj\Debug\Levels.exe
+C:\Users\Total\Desktop\AyushGupta\MathGame\Levels\Levels\obj\Debug\Levels.pdb
