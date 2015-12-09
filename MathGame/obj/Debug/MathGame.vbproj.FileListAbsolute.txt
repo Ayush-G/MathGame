@@ -8,3 +8,7 @@ C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.vbproj.Ge
 C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.exe
 C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.xml
 C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.pdb
+D:\Rithvik\MathGame\MathGame\bin\Debug\MathGame.exe.config
+D:\Rithvik\MathGame\MathGame\obj\Debug\MathGame.exe
+D:\Rithvik\MathGame\MathGame\obj\Debug\MathGame.xml
+D:\Rithvik\MathGame\MathGame\obj\Debug\MathGame.pdb
