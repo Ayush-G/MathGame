@@ -1,2 +1,3 @@
 D:\Rithvik\Math\Math\bin\Debug\Math.exe.config
 \\ad.ocdsb.ca\studenthome\8\S199820318\ICS20\RithvikA\Math\Math\bin\Debug\Math.exe.config
+C:\Users\Total\Desktop\AyushGupta\MathGame\Math\bin\Debug\Math.exe.config
