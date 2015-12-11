@@ -4,7 +4,7 @@
     Dim Answer As Double
     Dim dblSet As Double
     Dim dblMem As Double
-
+    Dim shtUse As Short
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
     End Sub
 
@@ -152,5 +152,10 @@
         Else
             calcDisplay.Text = "0"
         End If
+    End Sub
+
+    Private Sub btnUse_Click_3(sender As Object, e As EventArgs) Handles btnUse.Click
+        shtUse = calcDisplay.Text
+        My.Forms.Hard.txtAnswer.Text = shtUse
     End Sub
 End Class

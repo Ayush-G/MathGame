@@ -2,13 +2,13 @@
     Dim rng1, rng2, rng3, rng4, rng5 As Integer
     Dim sec1 As Long
     Dim sec2 As Long
+    Dim shtAns1, shtAns2, shtAns3 As Short
+    Dim rngOp1, rngOp2, rngOp3 As Integer
 
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
         My.Forms.Calc.Show()
     End Sub
 
-    Dim shtAns1, shtAns2, shtAns3 As Short
-    Dim rngOp1, rngOp2, rngOp3 As Integer
 
     Private Sub Hard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Randomize()
@@ -44,11 +44,11 @@
         If rngOp3 = 1 Then
             lblOp3.Text = "+"
         ElseIf rngOp3 = 2
-            lblOp1.Text = "-"
+            lblOp3.Text = "-"
         ElseIf rngOp3 = 3
-            lblOp1.Text = "x"
+            lblOp3.Text = "x"
         ElseIf rngOp3 = 4
-            lblOp1.Text = "÷"
+            lblOp3.Text = "÷"
         End If
 
         Num1.Text = rng1
@@ -69,28 +69,29 @@
         ElseIf lblOp1.Text = "÷" Then
             shtAns1 = rng1 / rng2
         End If
-
-        If lblOp2.Text = "+" Then
+        MsgBox(shtAns1)
+        If lblOp3.Text = "+" Then
             shtAns2 = rng4 + rng5
-        ElseIf lblOp2.Text = "-" Then
+        ElseIf lblOp3.Text = "-" Then
             shtAns2 = rng4 - rng5
-        ElseIf lblOp2.Text = "*" Then
+        ElseIf lblOp3.Text = "*" Then
             shtAns2 = rng4 * rng5
-        ElseIf lblOp2.Text = "÷" Then
+        ElseIf lblOp3.Text = "÷" Then
             shtAns2 = rng4 / rng5
         End If
-
+        MsgBox(shtAns2)
         shtAns2 = shtAns2 * rng3
 
-        If lblOp3.Text = "+" Then
+        If lblOp2.Text = "+" Then
             shtAns3 = shtAns1 + shtAns2
-        ElseIf lblOp3.Text = "-" Then
+        ElseIf lblOp2.Text = "-" Then
             shtAns3 = shtAns1 - shtAns2
-        ElseIf lblOp3.Text = "*" Then
+        ElseIf lblOp2.Text = "*" Then
             shtAns3 = shtAns1 * shtAns2
-        ElseIf lblOp3.Text = "÷" Then
+        ElseIf lblOp2.Text = "÷" Then
             shtAns3 = shtAns1 / shtAns2
         End If
+        MsgBox(shtAns3)
         Label4.Text = shtAns3
         'Check 
         If IsNumeric(txtAnswer.Text) Then
@@ -147,6 +148,12 @@
         Num3.Text = rng3
         Num4.Text = rng4
         Num5.Text = rng5
+
+
+
+
+
+
     End Sub
 
 

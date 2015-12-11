@@ -47,6 +47,7 @@ Partial Class Calc
         Me.btn2 = New System.Windows.Forms.Button()
         Me.btn1 = New System.Windows.Forms.Button()
         Me.calcDisplay = New System.Windows.Forms.TextBox()
+        Me.btnUse = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnMPlus
@@ -337,11 +338,24 @@ Partial Class Calc
         Me.calcDisplay.TabIndex = 25
         Me.calcDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
+        'btnUse
+        '
+        Me.btnUse.BackColor = System.Drawing.Color.DarkRed
+        Me.btnUse.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUse.ForeColor = System.Drawing.Color.White
+        Me.btnUse.Location = New System.Drawing.Point(11, 357)
+        Me.btnUse.Name = "btnUse"
+        Me.btnUse.Size = New System.Drawing.Size(299, 55)
+        Me.btnUse.TabIndex = 50
+        Me.btnUse.Text = "Use Answer"
+        Me.btnUse.UseVisualStyleBackColor = False
+        '
         'Calc
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(318, 357)
+        Me.ClientSize = New System.Drawing.Size(316, 408)
+        Me.Controls.Add(Me.btnUse)
         Me.Controls.Add(Me.btnMPlus)
         Me.Controls.Add(Me.btnMClear)
         Me.Controls.Add(Me.btnSqrt)
@@ -399,4 +413,5 @@ Partial Class Calc
     Friend WithEvents btn2 As Button
     Friend WithEvents btn1 As Button
     Friend WithEvents calcDisplay As TextBox
+    Friend WithEvents btnUse As Button
 End Class
