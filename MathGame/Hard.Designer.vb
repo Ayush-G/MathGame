@@ -22,6 +22,7 @@ Partial Class Hard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Num5 = New System.Windows.Forms.Label()
         Me.lblOp3 = New System.Windows.Forms.Label()
@@ -38,6 +39,11 @@ Partial Class Hard
         Me.Num1 = New System.Windows.Forms.Label()
         Me.lbl1 = New System.Windows.Forms.Label()
         Me.btnCalc = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblTime = New System.Windows.Forms.Label()
+        Me.lblScore = New System.Windows.Forms.Label()
+        Me.lblScoreNum = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label12
@@ -74,7 +80,7 @@ Partial Class Hard
         '
         Me.Num4.AutoSize = True
         Me.Num4.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Num4.Location = New System.Drawing.Point(470, 196)
+        Me.Num4.Location = New System.Drawing.Point(461, 196)
         Me.Num4.Name = "Num4"
         Me.Num4.Size = New System.Drawing.Size(26, 29)
         Me.Num4.TabIndex = 27
@@ -198,12 +204,61 @@ Partial Class Hard
         Me.btnCalc.Text = "Calculator"
         Me.btnCalc.UseVisualStyleBackColor = False
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(12, 19)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(92, 29)
+        Me.Label1.TabIndex = 32
+        Me.Label1.Text = "Timer: "
+        '
+        'lblTime
+        '
+        Me.lblTime.AutoSize = True
+        Me.lblTime.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTime.Location = New System.Drawing.Point(101, 19)
+        Me.lblTime.Name = "lblTime"
+        Me.lblTime.Size = New System.Drawing.Size(39, 29)
+        Me.lblTime.TabIndex = 33
+        Me.lblTime.Text = "30"
+        '
+        'lblScore
+        '
+        Me.lblScore.AutoSize = True
+        Me.lblScore.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblScore.Location = New System.Drawing.Point(12, 59)
+        Me.lblScore.Name = "lblScore"
+        Me.lblScore.Size = New System.Drawing.Size(93, 29)
+        Me.lblScore.TabIndex = 34
+        Me.lblScore.Text = "Score: "
+        '
+        'lblScoreNum
+        '
+        Me.lblScoreNum.AutoSize = True
+        Me.lblScoreNum.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblScoreNum.Location = New System.Drawing.Point(101, 59)
+        Me.lblScoreNum.Name = "lblScoreNum"
+        Me.lblScoreNum.Size = New System.Drawing.Size(26, 29)
+        Me.lblScoreNum.TabIndex = 35
+        Me.lblScoreNum.Text = "0"
+        '
         'Hard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightSkyBlue
         Me.ClientSize = New System.Drawing.Size(810, 521)
+        Me.Controls.Add(Me.lblScoreNum)
+        Me.Controls.Add(Me.lblScore)
+        Me.Controls.Add(Me.lblTime)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnCalc)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Num5)
@@ -242,4 +297,9 @@ Partial Class Hard
     Friend WithEvents Num1 As Label
     Friend WithEvents lbl1 As Label
     Friend WithEvents btnCalc As Button
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Label1 As Label
+    Friend WithEvents lblTime As Label
+    Friend WithEvents lblScore As Label
+    Friend WithEvents lblScoreNum As Label
 End Class

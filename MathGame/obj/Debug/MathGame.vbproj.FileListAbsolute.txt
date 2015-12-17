@@ -12,7 +12,9 @@ D:\Rithvik\MathGame\MathGame\bin\Debug\MathGame.exe.config
 D:\Rithvik\MathGame\MathGame\obj\Debug\MathGame.exe
 D:\Rithvik\MathGame\MathGame\obj\Debug\MathGame.xml
 D:\Rithvik\MathGame\MathGame\obj\Debug\MathGame.pdb
-C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.vbprojResolveAssemblyReference.cache
 C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.Level.resources
 C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.Hard.resources
 C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.Calc.resources
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.vbprojResolveAssemblyReference.cache
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.Form1.resources
+C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.Easy.resources

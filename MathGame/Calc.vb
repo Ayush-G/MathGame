@@ -49,9 +49,14 @@
     End Sub
 
     Private Sub btnMinus_Click(sender As Object, e As EventArgs) Handles btnMinus.Click
-        dblNum1 = calcDisplay.Text
-        calcDisplay.Text = ""
-        dblSet = 2
+        If calcDisplay.Text = "" Then
+            calcDisplay.Text = "-"
+        Else
+            dblNum1 = calcDisplay.Text
+            calcDisplay.Text = ""
+            dblSet = 2
+        End If
+
     End Sub
 
     Private Sub btnPlus_Click(sender As Object, e As EventArgs) Handles btnPlus.Click
