@@ -18,3 +18,7 @@ C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.Calc.res
 C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\MathGame.vbprojResolveAssemblyReference.cache
 C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.Form1.resources
 C:\Users\Total\Desktop\AyushGupta\MathGame\MathGame\obj\Debug\mathGame2.Easy.resources
+E:\Visual Studio Community 2015\VB\VBProjects\MathGame\MathGame\bin\Debug\MathGame.exe.config
+E:\Visual Studio Community 2015\VB\VBProjects\MathGame\MathGame\obj\Debug\MathGame.exe
+E:\Visual Studio Community 2015\VB\VBProjects\MathGame\MathGame\obj\Debug\MathGame.xml
+E:\Visual Studio Community 2015\VB\VBProjects\MathGame\MathGame\obj\Debug\MathGame.pdb
